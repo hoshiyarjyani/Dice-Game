@@ -15,19 +15,25 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 10px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 4rem;
   color: #f07911;
   text-decoration: underline;
 }
-
-p {
-  font-size: 2rem;
-  color: #1b1919;
-  font-family: 'Indie Flower', cursive;
+h2{
+  text-align: center;
+  font-family:  Helvetica, sans-serif;
   text-decoration: underline;
+  color: #f07911;
+}
+#p1,#p2{
+  font-size: 2rem;
+  color: #f4e9e9;
+  font-family:  'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+  font-style: italic;
 }
 
 img {
@@ -42,14 +48,26 @@ footer {
 
 }
 button{
-  margin-left: 45%;
-  margin-top: 3%;
-  font-size: 2rem;
+  
   background-color: red;
   color: white;
+  padding: 15px;
+  margin: 3% 42% 0%;
 }
+     
+
 button:hover{
-  background-color: rgb(253, 50, 4);
+  background-color: rgb(105, 102, 102);
   transition-delay: 0.1s;
   box-shadow: #393E46;
+}
+ tr td{
+  border: 1px solid black;
+  text-align: center;
+  
+}
+table{
+ background-color: #d9d7d4;
+  margin:10px auto ;
+  width: 40%;
 }
